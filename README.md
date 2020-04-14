@@ -4,13 +4,18 @@ This repo implements the paper Content Enhanced BERT-based Text-to-SQL Generatio
 The model is trained using the WikiSql dataset and evaluated on the same.
  
 
-# Software Requirements
-
-python 3.6
-
-records 0.5.3   
-
-torch 1.1.0   
+#### Requirements
+- `python3.6` or higher.
+- `PyTorch 1.1.0`
+- Python libraries: `babel, matplotlib, defusedxml, tqdm`
+- Example
+    - Install [minicoda](https://conda.io/miniconda.html)
+    - `conda install pytorch torchvision -c pytorch`
+    - `conda install -c conda-forge records==0.5.2`
+    - `conda install babel` 
+    - `conda install matplotlib`
+    - `conda install defusedxml`
+    - `conda install tqdm`
 
 # Steps to Run
 
