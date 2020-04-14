@@ -19,13 +19,13 @@ The model is trained using the WikiSql dataset and evaluated on the same.
 
 # Steps to Run
 
-1, Data prepare:
+1. Data prepare:
 Download all origin data( https://drive.google.com/drive/folders/1YAWwcwNUPN2PrSMZsGZ1WfPfdbeQPXyh?usp=sharing ) and put them at `data_and_model` directory.
 
 Then run
 `data_and_model/output_entity.py`
 
-2, Train and eval:
+2. Train and eval:
 
 `train.py`
 
